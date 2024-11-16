@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: "Pelak" !important;
+}
+
+@layer base {
+    @media (min-width: 1536px) {
+        .container {
+            max-width: 1351px !important;
+        }
+    }
+
+    @font-face {
+        font-family: "Pelak";
+        src: url(../src/assets/Fonts/Pelak/webfonts/woff2/PelakFA-Medium.woff2);
+    }
+}
